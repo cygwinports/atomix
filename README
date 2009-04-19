@@ -8,31 +8,32 @@ construct complex molecules with this atom behaviour. The game is
 inspired by the original Amiga version.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  gdk-pixbuf2-2.12.11-1
-  glib2-2.16.5-1
-  gtk2-x11-2.12.11-1
-  libart_lgpl2-2.3.20-1
-  libbonobo2-2.22.0-1
-  libbonoboui2-2.22.0-1
-  libgnome2-2.22.0-1
-  libgnomecanvas2-2.20.1.1-1
-  libgnomeui2-2.22.1-1
+  cygwin-1.7.0-45
+  libart_lgpl_2_2-2.3.20-10
+  libbonobo2_0-2.24.1-1
+  libbonoboui2_0-2.24.1-1
+  libgcc1-4.3.2-2
+  libgdk_pixbuf2.0_0-2.16.0-1
+  libglib2.0_0-2.20.0-1
+  libgnome2_0-2.26.0-1
+  libgnomecanvas2_0-2.26.0-1
+  libgnomeui2_0-2.24.1-1
+  libgtk2.0_0-2.16.0-1
   libintl8-0.15-1
-  libxml2-2.6.32-1
+  libxml2-2.7.3-10
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
   binutils-20080624-2
-  cygport-0.4.0-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gnome-common-2.20.0-2
-  intltool-0.40.3-1
-  make-3.81-1
-  pkg-config-0.23a-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gnome-common-2.26.0-1
+  intltool-0.40.6-1
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical download:
@@ -55,6 +56,9 @@ This will create:
 
 Files included in the binary package:
 
+  /etc/defaults/var/games/atomix.scores
+  /etc/postinstall/atomix.sh
+  /etc/preremove/atomix.sh
   /usr/bin/atomix.exe
   /usr/share/applications/atomix.desktop
   /usr/share/atomix/atomix-logo.png
@@ -123,12 +127,11 @@ Files included in the binary package:
   /usr/share/atomix/themes/default/wall-vertical-rightx.png
   /usr/share/atomix/themes/default/wall-vertical-top-end.png
   /usr/share/atomix/themes/default/wall-vertical.png
-  /usr/share/doc/atomix-2.14.0/AUTHORS
-  /usr/share/doc/atomix-2.14.0/COPYING
-  /usr/share/doc/atomix-2.14.0/ChangeLog
-  /usr/share/doc/atomix-2.14.0/INSTALL
-  /usr/share/doc/atomix-2.14.0/NEWS
-  /usr/share/doc/atomix-2.14.0/README
+  /usr/share/doc/atomix/AUTHORS
+  /usr/share/doc/atomix/COPYING
+  /usr/share/doc/atomix/ChangeLog
+  /usr/share/doc/atomix/NEWS
+  /usr/share/doc/atomix/README
   /usr/share/gnome-2.0/ui/atomix-ui.xml
   /usr/share/locale/am/LC_MESSAGES/atomix.mo
   /usr/share/locale/az/LC_MESSAGES/atomix.mo
@@ -185,23 +188,13 @@ Files included in the binary package:
   /usr/share/locale/zh_HK/LC_MESSAGES/atomix.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/atomix.mo
   /usr/share/pixmaps/atomix-icon.png
-  /var/lib/games/atomix.scores
 
 ------------------
 
 Port Notes:
 
------ version 2.14.0-1 -----
-Version bump.
-
------ version 1.2.4-1 -----
-Version bump.
-
------ version 1.2.2a-1 -----
-New release with a new upstream maintainer, now hosted on ftp.gnome.org.
-
------ version 1.0.1-1 -----
-Initial release for Cygwin.
+----- version 2.14.0-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

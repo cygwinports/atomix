@@ -1,8 +1,8 @@
 inherit gnome2
 
 NAME="atomix"
-VERSION=2.14.0
-RELEASE=10
+VERSION=3.15.4
+RELEASE=1
 CATEGORY="Games"
 SUMMARY="Game where you build molecules out of single atoms"
 DESCRIPTION="Atomix is a little mind game where you have to build molecules

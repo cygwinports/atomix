@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="atomix"
-VERSION=3.15.4
+VERSION=3.16.0
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="Game where you build molecules out of single atoms"
